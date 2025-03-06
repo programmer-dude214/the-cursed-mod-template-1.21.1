@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CURSED_ITEM_DEEPSLATE_ORE);
 
                         entries.add(ModItems.DIAMONDER);
+
+                        entries.add(ModBlocks.SHAPE_SHIFTER_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

@@ -22,7 +22,6 @@ public class DiamonderItem extends Item {
                     Blocks.GRASS_BLOCK, Blocks.DIAMOND_BLOCK,
                     Blocks.STONE, Blocks.NETHERITE_BLOCK,
                     Blocks.DIAMOND_BLOCK, Blocks.DIRT,
-                    Blocks.DIAMOND_BLOCK, Blocks.GRASS_BLOCK,
                     Blocks.DEEPSLATE, Blocks.IRON_BLOCK
 
 

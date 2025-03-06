@@ -14,6 +14,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import the.cursed.mod.TheCursedMod;
 import net.minecraft.item.ItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import the.cursed.mod.block.custom.ShapeShifterBlock;
 
 public class ModBlocks {
     public static final Block CURSED_BLOCK = registerBlock("cursed_block",
@@ -27,6 +28,9 @@ public class ModBlocks {
     public static final Block CURSED_ITEM_DEEPSLATE_ORE = registerBlock("cursed_item_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(1, 11),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block SHAPE_SHIFTER_BLOCK = registerBlock("shape_shifter_block",
+            new ShapeShifterBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     // Register the block
     private static Block registerBlock(String name, Block block) {
